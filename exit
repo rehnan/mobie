@@ -1,0 +1,17 @@
+[33mcommit be060a12c66f246b0f2e490185ae2c33988f4388[m
+Author: Rehnan Carolino <rehnancarolino@live.com>
+Date:   Thu Feb 26 17:06:11 2015 -0300
+
+    [Changed File: api/responses/notFound.js] - [Line: 61] - [Adicionado parametro para setar o layout como null ]
+
+[33mcommit 4f137ba6ed3fa082ff305eb5428db83866955599[m
+Author: Rehnan Carolino <rehnancarolino@live.com>
+Date:   Thu Feb 26 15:25:18 2015 -0300
+
+    Changed readme file
+
+[33mcommit d028d6ecabdbcdec8074258f01dbe0e7e81a1c91[m
+Author: Rehnan Carolino <rehnancarolino@live.com>
+Date:   Thu Feb 26 15:17:18 2015 -0300
+
+    Initial commit

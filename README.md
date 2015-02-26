@@ -19,4 +19,4 @@ version: 0.0.1\n
 
 ##### Link Access (it running in port: 1337):
 
-* [http://localhost/1337](http://localhost/1337)
+* [http://localhost:1337](http://localhost:1337)

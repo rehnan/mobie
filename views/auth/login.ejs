@@ -1,0 +1,25 @@
+<fieldset>
+    <legend class="text-center header"><h1>Login</h1></legend>
+</fieldset>
+<img class="profile-img" src="/images/avatar.png"
+alt="avatar">
+
+<form class="form-signin" action="/auth/login" method="POST">
+    <input type="text" name="username" class="form-control" placeholder="Email" required autofocus>
+    <input type="password" name="password" class="form-control" placeholder="Password" required>
+    <button class="btn btn-lg btn-primary btn-block" type="submit"> Sign in </button>
+    <a href="/auth/signup" role="button" class="btn btn-lg btn-success btn-block">Sign up</a>
+    <label class="checkbox pull-left">
+        <input type="checkbox" value="remember-me"> Remember me
+    </label>
+    <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+</form>
+
+<% if (typeof message !== 'undefined' ) { %>
+    <div class="alert alert-danger alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <strong><%= message %></strong> 
+    </div>
+<% } %>
+

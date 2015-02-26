@@ -3,16 +3,20 @@
 a [Sails](http://sailsjs.org) application
 version: 0.0.1\n
 
-Requied to run this application: 
-NPM Installed
-NodeJs Installed
-MongoDB Installed
+#### Requied to run this application:
 
-Install Dependecies (Into Project Directory): 
-npm install (To install dependecies);
+* **NPM Installed**
+* **NodeJs Installed**
+* **MongoDB Installed**
 
-Start Application (Into Porject Directory):
-sails lift 
+#### Install Dependecies (Into Project Directory): 
 
-Link Access ([running in port: 1337]):
-http://localhost/1337
+* npm install (To install dependecies);
+
+#### Start Application (Into Porject Directory):
+
+* sails lift 
+
+#### Link Access ([running in port: 1337]):
+
+* (http://localhost/1337)
